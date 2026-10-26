@@ -56,10 +56,7 @@ Standard navigation apps default to the fastest route, which often leads down un
 
 ---
 
-## 🗺️ Project Updates & Roadmap
-
-### 💡 [LitRoute](https://github.com/your-username/litroute)
-*Safe night navigation web app prioritizing well-lit roads, open shops, PCRs, and instant SOS alerts.*
+## 🗺️ Project Updates
 
 * **[Upcoming]** Overpass API Integration to fetch and render nearby active hubs (Police Stations, Pharmacies & Open Shops) with custom color-coded map markers.
 * **[Completed]** Fixed layout bugs and z-index overlap between SOS emergency trigger and top branding header.
