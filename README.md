@@ -1,37 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💡 LitRoute
 
-## Getting Started
+> *Safe night navigation web app prioritizing well-lit roads, open shops, police stations (PCRs), and instant SOS alerts.*
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?style=for-the-badge&logo=leaflet)](https://leafletjs.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 About LitRoute
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Standard navigation apps default to the fastest route, which often leads down unlit, isolated shortcuts. **LitRoute** is a safety-first navigation web application designed to empower women traveling alone at night. By integrating live geospatial data, LitRoute highlights active commercial hubs, 24/7 pharmacies, police control rooms, and offers a one-tap emergency broadcast system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Core Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Live GPS Centering:** Automatically detects and centers the map on the user's current location upon load.
+- **Active Hubs Integration:** Dynamically queries OpenStreetMap (via Overpass API) to display nearby police stations, open shops, and pharmacies in real-time.
+- **One-Tap SOS Emergency:** Instantly captures live GPS coordinates and generates a prefilled WhatsApp/Web Share emergency broadcast message to trusted contacts.
+- **Responsive Night-Mode UI:** Built with a clean, high-contrast interface designed for quick readability in low-light environments.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+- **Frontend & Framework:** Next.js (App Router) + React
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Mapping & Geospatial:** Leaflet.js / React-Leaflet, OpenStreetMap Tiles, Overpass API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# LitRoute
+## ⚙️ Getting Started Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/litroute.git
+   cd litroute
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Navigate to `http://localhost:3000` to view the app.
+
+---
+
+## 🗺️ Project Updates & Roadmap
+
+### 💡 [LitRoute](https://github.com/your-username/litroute)
+*Safe night navigation web app prioritizing well-lit roads, open shops, PCRs, and instant SOS alerts.*
+
+* **[Upcoming]** Overpass API Integration to fetch and render nearby active hubs (Police Stations, Pharmacies & Open Shops) with custom color-coded map markers.
+* **[Completed]** Fixed layout bugs and z-index overlap between SOS emergency trigger and top branding header.
+* **[Completed]** Live browser geolocation tracking and automatic map centering.
+* **[Completed]** One-tap emergency SOS button with WhatsApp coordinate sharing integration.
+* **[Completed]** Base Next.js + TypeScript + Leaflet map setup and dark-mode branding layout.
+
+**In Progress...**
