@@ -25,7 +25,7 @@ export default function SOSButton() {
     return(
         <button
             onClick={handleSOS}
-            className="fixed botton-8 right-8 z-50 bg-red-600 hover:bg-red-800 text-white font-bold py-4 py-8 rounded-full shadow-2xl flex items-center gap-3 transition-tranform transform hover:scale-105 animate-pulse"
+            className="fixed bottom-10 right-8 z-50 bg-red-600 hover:bg-red-800 text-white font-bold py-4 py-8 rounded-full shadow-2xl flex items-center gap-3 transition-tranform transform hover:scale-105 animate-pulse"
         >
             <span className = "text-xl">🚨</span> SOS Emergency
         </button>
